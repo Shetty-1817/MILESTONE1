@@ -1,0 +1,50 @@
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background:#f5f5f5;
+}
+header{
+    background:#0b4f6c;
+    padding:15px;
+    color:white;
+}
+nav a{
+    margin-right:15px;
+    text-decoration:none;
+    color:white;
+    font-size:14px;
+}
+.hero {
+    height: 60vh;
+    background: url('https://tse3.mm.bing.net/th/id/OIP.-uDURABCUpKqJsLsS8EZ_AHaDG?pid=Api&P=0&h=180') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(242, 7, 7);
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.8);
+    border-radius: 10px;
+}
+.hero h1{
+    font-size:28px;
+}
+.section{
+    padding:20px;
+}
+.card{
+    background:white;
+    padding:15px;
+    margin-bottom:15px;
+    border-radius:5px;
+    box-shadow:0 0 5px rgba(0,0,0,0.1);
+}
+footer{
+    background:#0b4f6c;
+    color:white;
+    padding:10px;
+    text-align:center;
+    font-size:14px;
+    margin-top:20px;
+}
